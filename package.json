@@ -2,10 +2,11 @@
   "name": "can2025-auth",
   "version": "1.0.0",
   "private": true,
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
-    "bcryptjs": "^3.0.3",
-    "jsonwebtoken": "^9.0.3",
-    "pg": "^8.16.3"
+    "sequelize": "^6.37.0",
+    "pg": "^8.16.3",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.3"
   }
 }
